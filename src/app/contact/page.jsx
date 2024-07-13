@@ -34,7 +34,7 @@ const ContactForm = () => {
     <div className="w-[100%] px-0 p-10 mt-10 rounded-md">
       <h2 className="text-white text-4xl font-bold mb-4">Get in Touch</h2>
       <p className="text-white text-lg mb-8">
-        I'm a seasoned WordPress and Figma designer ready to bring your ideas to life. Let's discuss how we can work together to create something amazing!
+        I&apos;m a seasoned WordPress and Figma designer ready to bring your ideas to life. Let&apos;s discuss how we can work together to create something amazing!
       </p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className='flex gap-4 flex-col md:flex-row'>
