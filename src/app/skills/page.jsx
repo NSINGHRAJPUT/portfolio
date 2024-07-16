@@ -1,18 +1,18 @@
-import React from 'react';
-import Layout from '../_Layout/Layout';
+import React from "react";
+import Layout from "../_Layout/Layout";
 
 const skillsData = [
-  { name: 'HTML', percentage: 95, color: 'bg-green-600' },
-  { name: 'CSS', percentage: 85, color: 'bg-yellow-500' },
-  { name: 'PHP', percentage: 90, color: 'bg-red-600' },
-  { name: 'Javascript', percentage: 90, color: 'bg-red-600' },
-  { name: 'Angular JS', percentage: 95, color: 'bg-green-600' },
-  { name: 'Wordpress', percentage: 85, color: 'bg-blue-600' },
+  { name: "HTML", percentage: 95, color: "bg-green-600" },
+  { name: "CSS", percentage: 85, color: "bg-yellow-500" },
+  { name: "PHP", percentage: 90, color: "bg-red-600" },
+  { name: "Javascript", percentage: 90, color: "bg-red-600" },
+  { name: "React JS", percentage: 95, color: "bg-green-600" },
+  { name: "Wordpress", percentage: 85, color: "bg-blue-600" },
 ];
 
 const Skills = () => {
   return (
-    <div className="p-5 w-[95%] bg-gray-800 text-white rounded-lg w-fit">
+    <div className="p-5 w-[95%] bg-gray-800 text-white rounded-lg">
       <h2 className="text-2xl mb-2 font-bold">Skills</h2>
       <div className="flex flex-wrap gap-5">
         {skillsData.map((skill, index) => (
